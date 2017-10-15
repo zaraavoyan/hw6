@@ -1,0 +1,21 @@
+
+var leftX = 110;
+var uniY = 275;
+var middleY = 180;
+var rightX = 230;
+
+background(170);
+fill(93,85,97);
+noStroke();
+triangle(11,330, 170,55, 329,330);
+noFill();
+stroke(255);
+while (uniY < 310) {{
+
+triangle(leftX, uniY, 170, middleY, rightX, uniY);
+}
+leftX = leftX - 10;
+uniY = uniY + 10;
+middleY = middleY + 10;
+rightX = rightX + 10;
+                }
