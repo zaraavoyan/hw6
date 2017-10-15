@@ -1,0 +1,12 @@
+background(0);
+rectMode(CENTER);
+noFill();
+stroke(255);
+var z = 10;
+while (true) {
+  {
+  rect(170, 170, z, z);
+  }
+  z = z + 20;
+}
+
