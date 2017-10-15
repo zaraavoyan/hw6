@@ -1,0 +1,102 @@
+background(39,34,38);
+stroke(235,233,247);
+fill(90,117,136);
+strokeWeight(2);
+var n = 1;
+var m = 90;
+
+
+while( n < 9 ) {
+  {
+  
+    while (m < 260) {
+  ellipse (50, m, 15, 15);
+    
+        m = m + 20
+      n = n + 1;
+    }
+  }
+}
+var m = 110;
+
+while (n < 18) {
+ 
+   ellipse (70, m, 15, 15);
+    
+        m = m + 20;
+      n = n + 1;
+
+ 
+}
+
+var m = 130;
+
+while (n < 25) {
+ 
+   ellipse (90, m, 15, 15);
+    
+        m = m + 20;
+      n = n + 1;
+
+ 
+}
+
+var m = 150;
+while (n < 31) {
+ 
+   ellipse (110, m, 15, 15);
+    
+        m = m + 20;
+      n = n + 1;
+
+}
+
+var m = 170;
+while (n < 36) {
+ 
+   ellipse (130, m, 15, 15);
+    
+        m = m + 20;
+      n = n + 1;
+
+}
+
+var m = 190;
+while (n < 40) {
+ 
+   ellipse (150, m, 15, 15);
+    
+        m = m + 20;
+      n = n + 1;
+
+}
+
+var m = 210;
+while (n < 43) {
+ 
+   ellipse (170, m, 15, 15);
+    
+        m = m + 20;
+      n = n + 1;
+
+}
+
+var m = 230;
+while (n < 45) {
+ 
+   ellipse (190, m, 15, 15);
+    
+        m = m + 20;
+      n = n + 1;
+
+}
+var m = 250;
+while (n < 46) {
+ 
+   ellipse (210, m, 15, 15);
+    
+        m = m + 20;
+      n = n + 1;
+
+}
+
