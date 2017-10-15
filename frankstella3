@@ -1,0 +1,17 @@
+
+fill(150);
+rectMode(CENTER);
+rect(170, 170, 30, 30);
+var z = 20;
+colorMode(HSB);
+
+while(z < height) {
+  {
+  strokeWeight(30);
+  stroke(random(190),random(200),random(150));
+  noFill();
+  rect (170, 170, z, z);
+  }
+  z = z + 20;
+}
+                 
